@@ -6,12 +6,15 @@ Montant = ["$6558.07", "$468.95", "$0.487526", "$762.84", "$8.86", "$85.26", "$0
 zip = Nom_devise.zip(Montant)
 crypto = Hash[zip]
   puts crypto
-
+puts
+puts
+puts 
 #Question 5 
 Montant_6000 = crypto.select {|k,v| v.tr('$', '').to_f < 6000}
 puts "Quelles sont toutes les devises dont le cours est inférieur à 6000."
 puts Montant_6000
-
+puts
+puts 
 
 puts
 puts
